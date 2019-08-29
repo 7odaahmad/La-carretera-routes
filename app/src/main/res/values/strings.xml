@@ -1,11 +1,12 @@
 <resources>
     <string name="app_name">La Carretera Routes</string>
     <string name="main_screen_from">From</string>
-    <string name="main_screen_to">To</string>
-    <string name="main_screen_cost">Cost</string>
+    <string name="main_screen_start_location">Start location</string>
+    <string name="main_screen_destination">Destination</string>
     <string name="main_screen_start">Start</string>
-    <string name="main_screen_empty_from_error">You should fill the from field</string>
-    <string name="main_screen_empty_to_error">You should fill the to field</string>
+    <string name="main_screen_empty_from_error">You should choose the start location</string>
+    <string name="main_screen_empty_to_error">You should fill the destination</string>
+    <string name="main_screen_same_locations_error">Start location and destinations can\'t be the same</string>
     <string name="main_screen_empty_cost_error">You should fill the cost field</string>
     <string name="title_activity_maps">Map</string>
     <string name="maps_activity_button_start">Start</string>

@@ -14,31 +14,25 @@
         android:layout_centerVertical="true"
         android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/fromEditText"
+        <Spinner
+            android:id="@+id/fromSpinner"
             android:layout_width="250sp"
             android:layout_height="wrap_content"
-            android:hint="@string/main_screen_from"
-            android:maxLines="1"
-            android:layout_gravity="center"
-            android:background="@color/colorPrimaryLight"
-            android:textColor="@android:color/white"
+            android:layout_margin="10sp"
             android:padding="10sp"
-            android:layout_margin="5sp"/>
+            android:background="@color/colorPrimaryLight">
 
-        <EditText
-            android:id="@+id/toEditText"
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/toSpinner"
             android:layout_width="250sp"
             android:layout_height="wrap_content"
-            android:hint="@string/main_screen_to"
-            android:maxLines="1"
-            android:lines="1"
-            android:layout_gravity="center"
-            android:background="@color/colorPrimaryLight"
-            android:textColor="@android:color/white"
+            android:layout_margin="10sp"
             android:padding="10sp"
-            android:layout_margin="5sp"/>
+            android:background="@color/colorPrimaryLight">
 
+        </Spinner>
 
         <EditText
             android:id="@+id/costEditText"

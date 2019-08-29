@@ -54,6 +54,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private DatabaseReference myRef;
 
     private String start,end,cost;
+    private String startKey,endKey;
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
@@ -72,6 +73,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         start = getIntent().getExtras().getString("start");
         end = getIntent().getExtras().getString("end");
         cost = getIntent().getExtras().getString("cost");
+        startKey = getIntent().getExtras().getString("startKey");
+        endKey = getIntent().getExtras().getString("endKey");
 
         setTitle(start + " to " + end);
 
@@ -85,7 +88,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (!collectingData){
+                if (!collectingData && !editing){
                     collectingData = true;
                     startButton.setText(getResources().getString(R.string.maps_activity_button_end));
                 }else {
@@ -217,7 +220,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     private void addPointsToDataBase(List<MarkerOptions> markersList){
-        myRef = database.getReference().child("Transportation").child(start + " to " + end);
+        myRef = database.getReference().child("Transportation").child(startKey + " " + endKey);
         myRef.child("start").setValue(markersList.get(0).getPosition().latitude+","+markersList.get(0).getPosition().longitude);
         myRef.child("end").setValue(markersList.get(markersList.size()-1).getPosition().latitude+","+markersList.get(markersList.size()-1).getPosition().longitude);
         myRef.child("cost").setValue(cost);
