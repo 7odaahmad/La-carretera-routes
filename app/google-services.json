@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "99575917469",
+    "firebase_url": "https://transportation-2bed0.firebaseio.com",
+    "project_id": "transportation-2bed0",
+    "storage_bucket": "transportation-2bed0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99575917469:android:71bd5b95d663f318",
+        "android_client_info": {
+          "package_name": "com.example.asmaa.transport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99575917469-8phq098skrjakna4pisedm0pbm0mufme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDK--tVuQvGhspJzCAP8uE_-velrIxTLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99575917469-8phq098skrjakna4pisedm0pbm0mufme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99575917469:android:678097117b1ab622",
+        "android_client_info": {
+          "package_name": "com.saber.lacarreteraroutes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99575917469-0k033kh9quomvi1ghrompe7nlg4q0o99.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saber.lacarreteraroutes",
+            "certificate_hash": "5d0ab0015d32e51b9e9453766294d9c27465af49"
+          }
+        },
+        {
+          "client_id": "99575917469-8phq098skrjakna4pisedm0pbm0mufme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDK--tVuQvGhspJzCAP8uE_-velrIxTLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99575917469-8phq098skrjakna4pisedm0pbm0mufme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

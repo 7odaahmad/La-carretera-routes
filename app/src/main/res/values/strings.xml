@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">La Carretera Routes</string>
+    <string name="main_screen_from">From</string>
+    <string name="main_screen_to">To</string>
+    <string name="main_screen_cost">Cost</string>
+    <string name="main_screen_start">Start</string>
+    <string name="main_screen_empty_from_error">You should fill the from field</string>
+    <string name="main_screen_empty_to_error">You should fill the to field</string>
+    <string name="main_screen_empty_cost_error">You should fill the cost field</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="maps_activity_button_start">Start</string>
+    <string name="maps_activity_button_end">End</string>
+    <string name="maps_activity_button_save">Save</string>
+</resources>
