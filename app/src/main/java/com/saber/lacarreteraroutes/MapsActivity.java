@@ -2,6 +2,7 @@ package com.saber.lacarreteraroutes;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
+import android.widget.Toolbar;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
@@ -17,7 +18,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-import android.widget.Toolbar;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -93,7 +93,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         collectingData = false;
                         editing = true;
                         startButton.setText(getResources().getString(R.string.maps_activity_button_save));
-
                     }else {
                         addPointsToDataBase(markersList);
                         onBackPressed();
