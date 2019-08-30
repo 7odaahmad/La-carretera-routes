@@ -4,6 +4,7 @@
     <string name="main_screen_start_location">Start location</string>
     <string name="main_screen_destination">Destination</string>
     <string name="main_screen_start">Start</string>
+    <string name="main_screen_cost">Cost</string>
     <string name="main_screen_empty_from_error">You should choose the start location</string>
     <string name="main_screen_empty_to_error">You should fill the destination</string>
     <string name="main_screen_same_locations_error">Start location and destinations can\'t be the same</string>
